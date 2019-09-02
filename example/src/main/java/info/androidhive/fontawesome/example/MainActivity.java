@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         initFab();
+        Log.e("build", BuildConfig.VERSION_NAME);
         intDrawerLayout();
     }
 
